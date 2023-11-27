@@ -1,0 +1,10 @@
+# golden = (1 + 5 ** 0.5) / 2
+# b = golden*golden*golden
+b = 4.2360679
+a = 2
+s=0
+while a<4e6:
+    s+=a
+    a = round(a*b)
+print(s)
+
